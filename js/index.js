@@ -255,7 +255,7 @@ function payload(){
     }
 
     var xhr = new XMLHttpRequest();
-    var url = "http://localhost:3000/payment";
+    var url = "https://nobel-checkout-api-1417488751.sa-east-1.elb.amazonaws.com/payment";
     xhr.open("POST", url, true)
     xhr.setRequestHeader("Content-Type", "application/json")
     xhr.onload = function(){
