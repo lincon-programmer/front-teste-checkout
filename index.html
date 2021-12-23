@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Nobel</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/boleto.css">
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <img class="header__logo" src="./images/nobel.png" alt="">
+            
+            <svg id="header__safe" xmlns="http://www.w3.org/2000/svg" width="16.037" height="23.327" viewBox="0 0 16.037 23.327">
+                <g transform="translate(-275.951 -75)">
+                  <path id="Caminho_72" data-name="Caminho 72" d="M289.8,84.476V80.832a5.832,5.832,0,1,0-11.663,0v3.645a2.189,2.189,0,0,0-2.187,2.187V96.14a2.189,2.189,0,0,0,2.187,2.187H289.8a2.189,2.189,0,0,0,2.187-2.187V86.663A2.189,2.189,0,0,0,289.8,84.476ZM279.6,80.832a4.374,4.374,0,1,1,8.748,0v3.645H279.6ZM290.53,96.14a.73.73,0,0,1-.729.729H278.138a.73.73,0,0,1-.729-.729V86.663a.73.73,0,0,1,.729-.729H289.8a.73.73,0,0,1,.729.729Z"/>
+                  <path id="Caminho_73" data-name="Caminho 73" d="M313.647,145.237a.729.729,0,0,0-.729.729v3.645a.729.729,0,1,0,1.458,0v-3.645A.729.729,0,0,0,313.647,145.237Z" transform="translate(-29.677 -56.387)"/>
+                </g>
+              </svg><!--.header__safe-->
+
+            <p class="header__text">Ambiente seguro</p> 
+        </div><!--.container-->
+        <div class="clear"></div><!--.clear-->
+    </section>
+
+    <section class="menu">
+        
+        <div class="menu__process menu__process--active" id="dados">
+            <div class="menu__components">
+                <svg id="menu_icon" class="menu__icon menu__icon--active" xmlns="http://www.w3.org/2000/svg" width="34.025" height="36.499" viewBox="0 0 34.025 36.499">
+                    <path d="M231.77,137.342c-.3-3.07-3.732-5.513-8.144-6.94a1.082,1.082,0,0,0-.121-.042,27.881,27.881,0,0,0-2.922-.751,8.319,8.319,0,0,0,2.621-2.663,7.353,7.353,0,0,0,1.148-3.958v-8.352a7.934,7.934,0,0,0-8.145-7.888h-2.888a7.934,7.934,0,0,0-8.145,7.888v8.352a7.347,7.347,0,0,0,1.159,3.975,8.326,8.326,0,0,0,2.588,2.632c-5.725,1.092-11.171,3.73-11.171,7.776v4.949a.928.928,0,0,0,1.856,0v-4.949c0-1.959,2.689-3.89,6.477-5.132l8.068,7.067a.927.927,0,0,0,1.222,0l8.046-7.042c3.673,1.241,6.3,3.164,6.5,5.169v4.887a.928.928,0,1,0,1.856,0Zm-18.451-28.737h2.888a6.1,6.1,0,0,1,6.289,6.032v.906c-1.675.221-5.823.542-8.455-1.214a7.478,7.478,0,0,0-6.9-.749A6.132,6.132,0,0,1,213.318,108.606Zm0,20.415a6.26,6.26,0,0,1-5.409-3.035,5.547,5.547,0,0,1-.88-3v-7.344a5.908,5.908,0,0,1,5.981.229,12.608,12.608,0,0,0,6.867,1.7,21.737,21.737,0,0,0,2.618-.161v5.571a5.531,5.531,0,0,1-.872,2.983,6.256,6.256,0,0,1-5.417,3.049Zm1.444,8.355-6.545-5.733a28.93,28.93,0,0,1,6.545-.766,28.2,28.2,0,0,1,6.536.777Z" transform="translate(-197.75 -106.75)"/>
+                </svg>
+                <p class="menu__paragraph menu__paragraph--active">Dados Pessoais</p>
+            </div>
+        </div>
+
+        <!--Seta-->
+        <div class="menu__seta" id="divSeta">
+            <svg id="menu__seta" class="menu__seta--disabled" xmlns="http://www.w3.org/2000/svg" width="11.636" height="20.983" viewBox="0 0 11.636 20.983">
+                <g transform="translate(0 0)">
+                  <path id="Caminho_34" data-name="Caminho 34" d="M165.558,86.063a1.144,1.144,0,0,1-.809-1.953l8.539-8.539-8.539-8.539a1.144,1.144,0,0,1,1.618-1.618l9.348,9.348a1.144,1.144,0,0,1,0,1.618l-9.348,9.348A1.141,1.141,0,0,1,165.558,86.063Z" transform="translate(-164.414 -65.08)"/>
+                </g>
+              </svg>
+        </div>
+        <!--Seta-->
+
+        <div class="menu__process menu__process--active" id="divPagNone" style="display: none;">
+            <div class="menu__components">
+                <svg class="menu__icon menu__icon--active" xmlns="http://www.w3.org/2000/svg" width="37.085" height="37.085" viewBox="0 0 37.085 37.085">
+                    <path id="Caminho_39" data-name="Caminho 39" d="M409.731,190.12a18.542,18.542,0,1,0,18.542,18.542A18.564,18.564,0,0,0,409.731,190.12Zm0,35.133a16.591,16.591,0,1,1,16.591-16.591A16.61,16.61,0,0,1,409.731,225.253Z" transform="translate(-391.189 -190.12)"/>
+                    <path id="Caminho_40" data-name="Caminho 40" d="M401.883,199.409h6.193a.976.976,0,0,0,0-1.952h-3.67v-2.122a.976.976,0,0,0-1.952,0v2.122h-.572a4.072,4.072,0,1,0,0,8.145h3.1a2.122,2.122,0,0,1,0,4.243h-6.193a.976.976,0,0,0,0,1.952h3.669v2.12a.976.976,0,1,0,1.952,0V211.8h.572a4.073,4.073,0,1,0,0-8.147h-3.1a2.121,2.121,0,1,1,0-4.241Z" transform="translate(-384.887 -186.084)"/>
+                  </svg>
+                <p class="menu__paragraph menu__paragraph--active">Pagamento</p>
+            </div>
+        </div>
+
+        <div class="menu__process menu__process--disabled" id="divPag">
+            <div class="menu__components" id="pagamentos">
+                <svg class="menu__icon menu__icon--disabled" xmlns="http://www.w3.org/2000/svg" width="37.085" height="37.085" viewBox="0 0 37.085 37.085">
+                    <path id="Caminho_39" data-name="Caminho 39" d="M409.731,190.12a18.542,18.542,0,1,0,18.542,18.542A18.564,18.564,0,0,0,409.731,190.12Zm0,35.133a16.591,16.591,0,1,1,16.591-16.591A16.61,16.61,0,0,1,409.731,225.253Z" transform="translate(-391.189 -190.12)"/>
+                    <path id="Caminho_40" data-name="Caminho 40" d="M401.883,199.409h6.193a.976.976,0,0,0,0-1.952h-3.67v-2.122a.976.976,0,0,0-1.952,0v2.122h-.572a4.072,4.072,0,1,0,0,8.145h3.1a2.122,2.122,0,0,1,0,4.243h-6.193a.976.976,0,0,0,0,1.952h3.669v2.12a.976.976,0,1,0,1.952,0V211.8h.572a4.073,4.073,0,1,0,0-8.147h-3.1a2.121,2.121,0,1,1,0-4.241Z" transform="translate(-384.887 -186.084)"/>
+                  </svg>
+                <p class="menu__paragraph menu__paragraph--disabled">Pagamento</p>
+            </div>
+        </div>
+
+        <!--Seta-->
+        <div class="menu__seta">
+            <svg class="menu__seta--disabled" xmlns="http://www.w3.org/2000/svg" width="11.636" height="20.983" viewBox="0 0 11.636 20.983">
+                <g transform="translate(0 0)">
+                  <path id="Caminho_34" data-name="Caminho 34" d="M165.558,86.063a1.144,1.144,0,0,1-.809-1.953l8.539-8.539-8.539-8.539a1.144,1.144,0,0,1,1.618-1.618l9.348,9.348a1.144,1.144,0,0,1,0,1.618l-9.348,9.348A1.141,1.141,0,0,1,165.558,86.063Z" transform="translate(-164.414 -65.08)"/>
+                </g>
+              </svg>
+        </div>
+        <!--Seta-->
+        
+        <div class="menu__process menu__process--disabled" id="sucesso">
+            <div class="menu__components">
+                <svg class="menu__icon menu__icon--disabled" xmlns="http://www.w3.org/2000/svg" width="34.692" height="29.141" viewBox="0 0 34.692 29.141">
+                    <path d="M94.513,161.168l-6.244-6.938a.691.691,0,0,0-.516-.23H66.938a.691.691,0,0,0-.516.23l-6.244,6.938a.692.692,0,0,0-.178.464v20.815a.694.694,0,0,0,.694.694H94a.694.694,0,0,0,.694-.694V161.632A.692.692,0,0,0,94.513,161.168Zm-13.7-5.78h6.63l5,5.551H80.815Zm-5.551,0h4.163v5.551H75.264Zm0,6.938h4.163V165.1H75.264Zm-8.017-6.938h6.63v5.551H62.251ZM93.3,181.753H61.388V162.326H73.877V165.8a.694.694,0,0,0,.694.694h5.551a.694.694,0,0,0,.694-.694v-3.469H93.3Z" transform="translate(-60 -154)"/>
+                  </svg>
+                <p class="menu__paragraph menu__paragraph--disabled">Concluido</p>
+            </div>
+        </div>
+    </section>
+
+    <span></span>
+
+    <section id="pagForms"></section>
+
+    <div class="dados" id="cadastro">
+    <form class="dados__form" id="formCadastro">
+        <label for="">Name*</label>
+        <input class="dados__name" type="text" name="text" placeholder="Digite seu nome" id="dados_name">
+        <label for="">CPF*</label>
+        <input class="dados__name" type="text" name="text" placeholder="Digite seu nome" id="dados_cpf">
+        <label for="">Email</label>
+        <input class="dados__name" type="email" name="text" placeholder="Digite seu email" id="dados_email">
+        <label for="">Celular/Whatsapp</label>
+        <input class="dados__name" type="text" name="text" placeholder="Digite seu whatsapp" id="dados_numero" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);">
+        <label for="">Qual a serie que você parou?</label>
+        <select  class="novo" name="select" id="installment">
+            <option value="2">1° Série/Fundamental</option>
+            <option value="3">2° Série/Fundamental</option>
+            <option value="4">3° Série/Fundamental</option>
+            <option value="5">4° Série/Fundamental</option>
+            <option value="6">5° Série/Fundamental</option>
+            <option value="7">6° Série/Fundamental</option>
+            <option value="8">7° Série/Fundamental</option>
+            <option value="9">8° Série/Fundamental</option>
+            <option value="10">1° Ano/Médio</option>
+            <option value="11">2° Ano/Médio</option>
+            <option value="12">3° Ano/Médio</option>
+        </select>
+        <input class="button button--active" type="button" value="avançar" onclick="getImputValue();">
+    </form>
+    </div>
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>

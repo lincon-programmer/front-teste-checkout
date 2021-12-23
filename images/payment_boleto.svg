@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.459" height="22.905" viewBox="0 0 28.459 22.905">
+  <g id="payment_boleto" transform="translate(0 0)">
+    <rect id="Retângulo_203" data-name="Retângulo 203" width="2.765" height="14.266" rx="0.145" transform="translate(4.337 4.215)" fill="#069bff"/>
+    <rect id="Retângulo_204" data-name="Retângulo 204" width="2.765" height="14.266" rx="0.145" transform="translate(21.516 4.215)" fill="#069bff"/>
+    <rect id="Retângulo_205" data-name="Retângulo 205" width="2.765" height="14.266" rx="0.145" transform="translate(15.692 4.215)" fill="#069bff"/>
+    <rect id="Retângulo_206" data-name="Retângulo 206" width="1.382" height="14.266" rx="0.145" transform="translate(8.626 4.19)" fill="#069bff"/>
+    <rect id="Retângulo_207" data-name="Retângulo 207" width="1.382" height="14.266" rx="0.145" transform="translate(11.391 4.19)" fill="#069bff"/>
+    <path id="Caminho_56" data-name="Caminho 56" d="M-601.447-118.579h-7.225a.148.148,0,0,0-.147.148v7.225a.147.147,0,0,0,.147.147h1.18a.147.147,0,0,0,.148-.147v-5.751a.148.148,0,0,1,.148-.148h5.75a.148.148,0,0,0,.148-.148v-1.179A.148.148,0,0,0-601.447-118.579Z" transform="translate(608.819 118.579)" fill="#069bff"/>
+    <path id="Caminho_57" data-name="Caminho 57" d="M-580.9-118.579h-7.225a.148.148,0,0,0-.148.148v1.179a.148.148,0,0,0,.148.148h5.751a.148.148,0,0,1,.148.148v5.751a.146.146,0,0,0,.147.147h1.18a.147.147,0,0,0,.148-.147v-7.225A.148.148,0,0,0-580.9-118.579Z" transform="translate(609.208 118.579)" fill="#069bff"/>
+    <path id="Caminho_58" data-name="Caminho 58" d="M-601.447-97.435h-5.75a.148.148,0,0,1-.148-.148v-5.751a.147.147,0,0,0-.148-.147h-1.18a.147.147,0,0,0-.147.147v7.225a.148.148,0,0,0,.147.148h7.225a.148.148,0,0,0,.148-.148v-1.179A.148.148,0,0,0-601.447-97.435Z" transform="translate(608.819 118.865)" fill="#069bff"/>
+    <path id="Caminho_59" data-name="Caminho 59" d="M-580.9-103.48h-1.18a.146.146,0,0,0-.147.147v5.751a.148.148,0,0,1-.148.148h-5.751a.148.148,0,0,0-.148.148v1.179a.148.148,0,0,0,.148.148h7.225a.148.148,0,0,0,.148-.148v-7.225A.147.147,0,0,0-580.9-103.48Z" transform="translate(609.208 118.865)" fill="#069bff"/>
+  </g>
+</svg>
